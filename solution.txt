@@ -1,0 +1,10 @@
+git clone https://PJWSTKs16479@github.com/PJWSTKs16479/epg1_git
+git branch hw-s16479
+git checkout rebase-me
+git rebase hw-s16479
+git checkout hw-s16479
+git merge rebase-me
+git merge origin/merge-me
+git nano README.md
+git add README.md
+git commit -m "Merging merge-me to my branch"
